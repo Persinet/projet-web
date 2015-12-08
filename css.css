@@ -1,6 +1,6 @@
 h1
 {
-	background-color: yellow;
+	background-color: #D65CFF;
 	text-align: center;
 	font-size: 30pt;
 	
@@ -9,13 +9,20 @@ h1
 div
 {
 	font-size:20pt;
+	color:blue;
 }
 
 ul
 {
 	font-size:20pt;
+	color:blue;
+li
+{
+	diplay=none;
+}	
+	
 }
 body
 {
-	background-color: red;
+	background-color: pink;
 }
