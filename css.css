@@ -6,23 +6,42 @@ h1
 	
 }
 
-div
+div#plat_principal , #dessert
 {
 	font-size:20pt;
 	color:blue;
+	height: 40px;
+	overflow: hidden;
+	position: absolute;
 }
 
+div#dessert {
+	margin-left: 300px;
+}
+
+div#plat_principal:hover 
+{
+	height: initial;
+}
+
+div#dessert:hover
+{
+	height: initial;
+}
 ul
 {
 	font-size:20pt;
 	color:blue;
-li
-{
-	diplay=none;
-}	
 	
 }
+
 body
 {
 	background-color: pink;
+}
+div#recherche
+{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 }
