@@ -12,7 +12,7 @@ p#n°1
 p
 {
 	text-align:center;
-	font-size:20pt
+	font-size:30pt
 }
 
 ul
@@ -28,7 +28,17 @@ IMG
 }
 span
 {
-	font-size:20pt;
+	font-size:30pt;
 	display:block;
 	text-align:center;
+}
+
+body
+{
+	background-color: #FFF799;
+}
+
+span a
+{
+	margin: 15px
 }
