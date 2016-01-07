@@ -2,23 +2,26 @@ body
 {
 	background-color:#FFF799;
 }
-
+.logo
+{
+	float:right;
+	width:8%;
+}
 h1
 {
 	text-align: center;
 	font-size: 30pt;
 }
-
 div#favori
 {
-	font-size:20pt;
+	font-size:25pt;
 	height:40px;
 	color:black;
 	margin-left:70%
 }
 div#entree
 {
-	font-size: 20pt;
+	font-size: 25pt;
 	color:black;
 	height:40px;
 	overflow:hidden;
@@ -26,7 +29,7 @@ div#entree
 }
 div#plat_principal
 {
-	font-size:20pt;
+	font-size:25pt;
 	margin-left:20%;
 	color:black;
 	height: 40px;
@@ -35,7 +38,7 @@ div#plat_principal
 }
 
 div#dessert {
-	font-size: 20pt;
+	font-size: 25pt;
 	left: 50%;
 	color:black;
 	height:40px;
@@ -69,16 +72,88 @@ form#rechercher
 	right:0px;
 }
 
-p#new
+h2
 {font-size:350%;
  text-align:center;
 	margin-top:15%
 }
 
-p#entree{
-	font-size:200%
+h3
+{
+	font-size:300%;
+	text-align: center;
+}
+p{
+	font-size:40px
+}
+.titre
+{
+	font-size:20px;
 }
 
-p{
-	font-size:20px
+p#text
+{
+	font-size:20px;
+}
+
+td#milieu
+{
+	position:absolute;
+	left:35%;
+}
+td#droite
+{
+	position:absolute;
+	left:70%;
+}
+
+@media (orientation:portrait){
+
+	body {
+color: red;
+	}
+	div#entree
+	{
+	  font-size:15px;	
+	}
+	div#plat_principal
+	{
+		font-size:15px;
+	}
+	div#dessert
+	{
+		font-size:15px;
+	}
+	div#favori
+	{
+		font-size:15px;
+	}
+	p
+	{
+		font-size:20px;
+	}
+	p#text
+	{
+		font-size:15px;
+	}
+	img
+	{
+		width:70px;
+	}
+	.titre
+	{
+		font-size:10px;
+	}
+	p#text
+	{
+		font-size:10px;
+	}
+	form#rechercher
+	{
+		display:none;
+	}
+	li
+	{
+		display:none;
+	}
 }
