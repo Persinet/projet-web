@@ -73,13 +73,16 @@ form#rechercher
 }
 
 h2
-{font-size:350%;
- text-align:center;
+{
+	color:red;
+	font-size:350%;
+  text-align:center;
 	margin-top:15%
 }
 
 h3
 {
+	color:red;
 	font-size:300%;
 	text-align: center;
 }
