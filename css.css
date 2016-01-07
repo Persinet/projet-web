@@ -9,6 +9,13 @@ h1
 	font-size: 30pt;
 }
 
+div#favori
+{
+	font-size:20pt;
+	height:40px;
+	color:black;
+	margin-left:70%
+}
 div#entree
 {
 	font-size: 20pt;
@@ -60,4 +67,18 @@ form#rechercher
 {
 	position: absolute;
 	right:0px;
+}
+
+p#new
+{font-size:350%;
+ text-align:center;
+	margin-top:15%
+}
+
+p#entree{
+	font-size:200%
+}
+
+p{
+	font-size:20px
 }
