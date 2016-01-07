@@ -4,27 +4,29 @@ h1
 	font-size: 60pt;	
 }
 
-p#n°1
+.titre
 {
+	margin-top:100px;
 	text-align:center;
-	font-size:30px;
+	font-size:60px;
 }
 p
 {
 	text-align:center;
-	font-size:30pt
+	font-size:50px;
 }
 
 ul
 {
-	font-size:20pt
+	margin-top:60px;
+	font-size:20pt;
+	clear:both;
 }
-IMG
+.img
 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-	width:25em;
+	margin-left:30px;
+	width:40%;
+	float:left;
 }
 span
 {
