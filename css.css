@@ -1,17 +1,36 @@
 body
 {
 	background-color:#FFF799;
+	font-family: sans-serif;
 }
+
 .logo
 {
 	float:right;
 	width:8%;
 }
+
 h1
 {
 	text-align: center;
 	font-size: 30pt;
 }
+
+nav 
+{
+	background-color: #DDFFFF;
+}
+
+a 
+{
+	color: #0055AA;
+}
+
+a:hover 
+{
+	color: black;
+}
+
 div#favori
 {
 	font-size:25pt;
@@ -19,6 +38,7 @@ div#favori
 	color:black;
 	margin-left:70%
 }
+
 div#entree
 {
 	font-size: 25pt;
@@ -27,6 +47,7 @@ div#entree
 	overflow:hidden;
 	position:absolute;
 }
+
 div#plat_principal
 {
 	font-size:25pt;
@@ -37,7 +58,8 @@ div#plat_principal
 	position: absolute;
 }
 
-div#dessert {
+div#dessert 
+{
 	font-size: 25pt;
 	left: 50%;
 	color:black;
@@ -50,6 +72,7 @@ div#entree:hover
 {
 	height:initial;
 }
+
 div#plat_principal:hover 
 {
 	height: initial;
@@ -72,9 +95,16 @@ form#rechercher
 	right:0px;
 }
 
+span#commentaire
+{
+	display:block;
+	float:right;
+	margin-top:5%
+}
+
 h2
 {
-	color:red;
+	color: #0055AA;
 	font-size:350%;
   text-align:center;
 	margin-top:15%
@@ -82,13 +112,15 @@ h2
 
 h3
 {
-	color:red;
+	color: #0055AA;
 	font-size:300%;
 	text-align: center;
 }
+
 p{
 	font-size:40px
 }
+
 .titre
 {
 	font-size:20px;
@@ -104,6 +136,7 @@ td#milieu
 	position:absolute;
 	left:35%;
 }
+
 td#droite
 {
 	position:absolute;
@@ -111,10 +144,6 @@ td#droite
 }
 
 @media (orientation:portrait){
-
-	body {
-color: red;
-	}
 	div#entree
 	{
 	  font-size:15px;	
@@ -133,7 +162,7 @@ color: red;
 	}
 	p
 	{
-		font-size:20px;
+		font-size:15px;
 	}
 	p#text
 	{
@@ -157,6 +186,6 @@ color: red;
 	}
 	li
 	{
-		display:none;
+		display:'none;
 	}
 }

@@ -1,7 +1,31 @@
+body {
+	font-family: sans-serif;
+}
+
+div#commentaire
+{
+	text-align:center;
+	font-size:150%;
+}
+p#blabla
+{
+	text-align:left;
+}
+
 h1
 {
 	text-align: center;
 	font-size: 60pt;	
+}
+
+span {
+	background-color: #DDFFFF;
+}
+a {
+	color: #0055AA;
+}
+a:hover {
+	color: black;
 }
 
 .titre
@@ -10,12 +34,18 @@ h1
 	text-align:center;
 	font-size:60px;
 }
+
 p
 {
 	text-align:center;
 	font-size:50px;
 }
 
+span#envoyer
+{
+	display:block;
+	background-color:#FFF799;
+}
 ul
 {
 	margin-top:60px;
@@ -33,6 +63,12 @@ span
 	font-size:30pt;
 	display:block;
 	text-align:center;
+}
+span#commentaire
+{
+	display:block;
+	float:right;
+	background-color:#FFF799;
 }
 
 body
@@ -62,5 +98,9 @@ span a
 	p
 	{
 		font-size:15px;
+	}
+	ul
+	{
+		font-size:20px;
 	}
 }
